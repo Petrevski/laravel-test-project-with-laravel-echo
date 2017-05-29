@@ -1,0 +1,24 @@
+{
+	"authHost": "http://laravel-test.app",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "1bf3a7d0abc2224a",
+			"key": "5ea755b07eb31eda5b2cdbebec00d9fd"
+		}
+	],
+	"database": "sqlite",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": null,
+	"port": "6001",
+	"protocol": "http",
+	"socketio": {},
+	"sslCertPath": "",
+	"sslKeyPath": ""
+}
